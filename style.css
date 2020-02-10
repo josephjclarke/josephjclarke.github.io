@@ -5,23 +5,31 @@ body{
     font-size:18px;
     color:#444;
     padding:0 10px}
+
 h1,h2,h3{
     line-height:1.2
 }
 
 #date{
-    text-align:right;
+  text-align:right;
 }
 
 
 #oldernewer{
-    display:flex;
-    justify-content: space-between;
+  display:flex;
+  justify-content: space-between;
 }
 
-#me_near_porlock{
-    height:80%;
-    width:80%;
+
+a {
+  text-decoration: none
+}
+
+img {
+  height: 50vw;
+  display: block;
+  margin: 0 auto;
+  max-width: 100%;
 }
 
 

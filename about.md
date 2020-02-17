@@ -1,8 +1,9 @@
 ---
-layout: default
+layout: mainpage
 title: About
 ---
-I'm working towards a PhD in Climate Science at the University of Exeter, supervised by [Peter Cox](http://emps.exeter.ac.uk/mathematics/staff/pmc205), [Peter Ashwin](http://emps.exeter.ac.uk/mathematics/staff/pashwin) and somewhat unofficially by [Paul Ritchie](https://emps.exeter.ac.uk/mathematics/staff/pdlr201).
+I'm working towards a PhD in Climate Science at the University of Exeter, supervised by [Peter Cox](http://emps.exeter.ac.uk/mathematics/staff/pmc205), [Peter Ashwin](http://emps.exeter.ac.uk/mathematics/staff/pashwin) 
+and somewhat unofficially by [Paul Ritchie](https://emps.exeter.ac.uk/mathematics/staff/pdlr201).
 
 My research falls into the field of climate dynamics. More specifically I'm interested in emergent constraints, tipping points and the links between the two. I use a hierarchy of models, from the
 qualitative (in a mathematical sense) insights of dynamical systems theory to complex global numerical models like
@@ -11,6 +12,10 @@ qualitative (in a mathematical sense) insights of dynamical systems theory to co
 Contact
 ---
 Send me an email: j.j.clarke at exeter.ac.uk
+
+Teaching
+---
+MTH1004: Probability, Statistics And Data, 2019-2020
 
 CV
 ---

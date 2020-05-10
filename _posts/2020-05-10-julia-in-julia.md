@@ -19,7 +19,7 @@ Here's a few examples, white denotes points in the set and the shades of blue gi
 ![A Filled Julia Set](/assets/julia_in_julia/first.png "A Filled Julia Set")
 ### $$f(z) = z^2 + 0.8 + 0.15i$$
 ![A Filled Julia Set](/assets/julia_in_julia/second.png "A Filled Julia Set")
-### $$f(z) z^2 - 0.5i$$
+### $$f(z) = z^2 - 0.5i$$
 ![A Filled Julia Set](/assets/julia_in_julia/third.png "A Filled Julia Set")
 
 

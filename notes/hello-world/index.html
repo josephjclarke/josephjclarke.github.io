@@ -1,0 +1,408 @@
+<!DOCTYPE html>
+<html lang="en-GB"><head>
+<title>Hello World - Joseph Clarke</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="description"
+    content="I&rsquo;m worried that there aren&rsquo;t enough websites.
+🖱 A similar process is at work in how we access music and movies. In the not so distant past I would listen to music from a mountain of mp3 files on my hard drive, whereas now I stream it. In return for convenience, we don&rsquo;t own media anymore: we rent it. Most people&rsquo;s internet usage (including mine) is concentrated on a few websites, owned by private interests who are often bad stewards of the website they run. ">
+<link rel="canonical" href="https://josephjclarke.github.io/notes/hello-world/" />
+
+
+<link rel="icon" href="https://josephjclarke.github.io/favicon.svg" />
+
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+
+
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link rel="preload" as="style"
+      href="https://fonts.googleapis.com/css?family=Noto+Serif+SC|Noto+Emoji&display=swap" />
+<link rel="stylesheet"
+      href="https://fonts.googleapis.com/css?family=Noto+Serif+SC|Noto+Emoji&display=swap"
+      media="print" onload="this.media='all'" />
+<noscript>
+<link rel="stylesheet"
+      href="https://fonts.googleapis.com/css?family=Noto+Serif+SC&display=swap" />
+</noscript>
+
+
+
+<link rel="stylesheet" href="https://josephjclarke.github.io/css/hugo-tufte.min.css">
+
+
+
+<link rel="stylesheet" href="https://josephjclarke.github.io/css/hugo-tufte-options.min.css">
+
+<link rel="stylesheet" href="https://josephjclarke.github.io/css/hugo-tufte-override.css">
+
+</head>
+<body>
+
+
+<article id="main">
+  <section>
+<h1 class="content-title">Hello World</h1><p class=subtitle>You have to start somewhere</p></section>
+
+  <section><nav class="menu">
+    <ul>
+    
+        <li><a href="https://josephjclarke.github.io/">Home</a></li>
+    
+        <li><a href="https://josephjclarke.github.io/about">About</a></li>
+    
+        <li><a href="https://josephjclarke.github.io/contact">Contact</a></li>
+    
+        <li><a href="https://josephjclarke.github.io/publications">Publications</a></li>
+    
+        <li><a href="https://josephjclarke.github.io/notes">Notes</a></li>
+    
+    </ul>
+</nav>
+
+    <hr />
+    </section>
+  
+
+  <section><p>I&rsquo;m worried that there aren&rsquo;t enough websites.</p>
+<p><label for="marginnote-1" class="margin-toggle marginnote-ind">🖱</label>
+<input type="checkbox" id="marginnote-1" class="margin-toggle"/>
+<span class="marginnote">
+A similar process is at work in how we access music
+and movies. In the not so distant past I would listen to music from a
+mountain of <code>mp3</code> files on my hard drive, whereas now I stream it.  In
+return for convenience, we don&rsquo;t own media anymore: we rent it.
+</span>
+ Most people&rsquo;s internet usage (including mine) is
+concentrated on a few websites, owned by private interests who are
+often bad stewards of the website they run. We are encouraged to
+access these sites through an app they own, rather than a browser. In
+other words, users are losing <em>control</em>.</p>
+<p>To fight against this, I am planting a flag in the virtual sand and
+claiming this corner of the internet as my own.</p>
+<h2 id="website-tour">
+Website Tour
+<a href="#website-tour" class="heading-anchor">#</a>
+</h2>
+<p>Go to my <a href="https://josephjclarke.github.io/about">about</a> page to learn about me, and say hello using
+my <a href="https://josephjclarke.github.io/contact">contact</a> details.</p>
+<p>I&rsquo;ve written a simple python script to generate a list of my
+<a href="https://josephjclarke.github.io/publications">publications</a> and a <a href="https://josephjclarke.github.io/cv.pdf">CV</a> from a bibtex file.</p>
+<p>An attempt at blogging can be found under the <a href="https://josephjclarke.github.io/notes">notes</a>
+page. Subscribe to my <a href="https://josephjclarke.github.io/notes/index.xml">RSS</a> feed!</p>
+<h2 id="technology">
+Technology
+<a href="#technology" class="heading-anchor">#</a>
+</h2>
+<p>The website is managed by the static site generator
+<a href="https://www.gohugo.io">Hugo</a>. I wanted to avoid the faff of running a
+dynamic website and the speed of Hugo appealed to me. I build the
+website using a Makefile, which also generates the
+<a href="https://josephjclarke.github.io/publications">publications</a> page from a bibtex file and compiles my
+CV.</p>
+<p>The theme is based on the
+<a href="https://github.com/loikein/hugo-tufte">hugo-tufte</a> theme.  I
+<a href="https://github.com/josephjclarke/hugo-tufte">forked</a> it and made some
+minor modifications like changing the colour scheme.  The theme is a
+Hugo implementation of <a href="https://edwardtufte.github.io/tufte-css/">Tufte
+CSS</a>, inspired by the work
+of Edward Tufte. He is best known for his book, <em>The Visual Display of
+Quantitative Information</em>.</p>
+<h2 id="website-features">
+Website Features
+<a href="#website-features" class="heading-anchor">#</a>
+</h2>
+<p>The <code>hugo-tufte</code> theme comes with some interesting features.</p>
+<h3 id="text">
+Text
+<a href="#text" class="heading-anchor">#</a>
+</h3>
+<p>Epigraphs can easily be places into the text.</p>
+<div class="epigraph">
+<blockquote>
+<p>Thus from the viewpoint of the
+present model, the problem of climate variability is not to discover
+positive feedback mechanisms which enhance the small variations of
+external inputs or produce instabilities, but rather to identify the
+negative feedback processes which must be present to balance the
+continual generation of climatic fluctuations by the random driving
+forces associated with the internal “weather” interactions.</p>
+
+
+    <footer>Klaus Hasselmann, <cite>Stochastic Climate Models Part I, Tellus, 1976</cite></footer>
+
+</blockquote>
+</div>
+
+<p>I&rsquo;ve never liked footnotes on websites. Unlike in a physical document,
+you cannot flick your eye to bottom of the page to read the
+footnote. A much better solution is provided by sidenotes, in which
+the extra text is placed in the margin, like so<label for="sidenote-1" class="margin-toggle sidenote-number">(1)</label>
+<input type="checkbox" id="sidenote-1" class="margin-toggle"/>
+<span class="sidenote">
+<span class="sidenote-number">(1)</span>Sidenotes, like footnotes, should be used judiciously.  Although Terry
+Pratchett mastered their use, it is important to remember that you are
+not Terry Pratchett.
+</span>
+.</p>
+<h3 id="code">
+Code
+<a href="#code" class="heading-anchor">#</a>
+</h3>
+<p>It&rsquo;s easy to insert code into the website. Here&rsquo;s some python:</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt"> 1
+</span><span class="lnt"> 2
+</span><span class="lnt"> 3
+</span><span class="lnt"> 4
+</span><span class="lnt"> 5
+</span><span class="lnt"> 6
+</span><span class="lnt"> 7
+</span><span class="lnt"> 8
+</span><span class="lnt"> 9
+</span><span class="lnt">10
+</span><span class="lnt">11
+</span><span class="lnt">12
+</span><span class="lnt">13
+</span><span class="lnt">14
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-python" data-lang="python"><span class="line"><span class="cl"><span class="kn">import</span> <span class="nn">numpy</span> <span class="k">as</span> <span class="nn">np</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="k">def</span> <span class="nf">primes</span><span class="p">(</span><span class="n">upper_limit</span><span class="p">:</span> <span class="nb">int</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="n">np</span><span class="o">.</span><span class="n">ndarray</span><span class="p">:</span>
+</span></span><span class="line"><span class="cl">	<span class="n">candidates</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">ones</span><span class="p">(</span><span class="n">upper_limit</span><span class="p">,</span> <span class="n">dtype</span><span class="o">=</span><span class="nb">bool</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">	<span class="n">candidates</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span> <span class="o">=</span> <span class="kc">False</span>
+</span></span><span class="line"><span class="cl">	<span class="k">for</span> <span class="n">n</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="mi">1</span><span class="p">,</span> <span class="n">candidates</span><span class="o">.</span><span class="n">size</span><span class="p">):</span>
+</span></span><span class="line"><span class="cl">		<span class="k">if</span> <span class="ow">not</span> <span class="n">candidates</span><span class="p">[</span><span class="n">n</span><span class="p">]:</span>
+</span></span><span class="line"><span class="cl">			<span class="k">continue</span>
+</span></span><span class="line"><span class="cl">		<span class="k">for</span> <span class="n">c</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="mi">2</span> <span class="o">*</span> <span class="n">n</span> <span class="o">+</span> <span class="mi">1</span><span class="p">,</span> <span class="n">candidates</span><span class="o">.</span><span class="n">size</span><span class="p">,</span> <span class="n">n</span> <span class="o">+</span> <span class="mi">1</span><span class="p">):</span>
+</span></span><span class="line"><span class="cl">			<span class="n">candidates</span><span class="p">[</span><span class="n">c</span><span class="p">]</span> <span class="o">=</span> <span class="kc">False</span>
+</span></span><span class="line"><span class="cl">	<span class="n">ns</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">arange</span><span class="p">(</span><span class="mi">1</span><span class="p">,</span> <span class="n">candidates</span><span class="o">.</span><span class="n">size</span> <span class="o">+</span> <span class="mi">1</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">	<span class="k">return</span> <span class="n">ns</span><span class="p">[</span><span class="n">candidates</span><span class="p">]</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s2">&#34;The primes below 10_000 are </span><span class="si">{</span><span class="n">primes</span><span class="p">(</span><span class="mi">10_000</span><span class="p">)</span><span class="si">}</span><span class="s2">&#34;</span><span class="p">)</span>
+</span></span></code></pre></td></tr></table>
+</div>
+</div><p>Syntax highlighting works in other languages too, here&rsquo;s some
+fortran</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt"> 1
+</span><span class="lnt"> 2
+</span><span class="lnt"> 3
+</span><span class="lnt"> 4
+</span><span class="lnt"> 5
+</span><span class="lnt"> 6
+</span><span class="lnt"> 7
+</span><span class="lnt"> 8
+</span><span class="lnt"> 9
+</span><span class="lnt">10
+</span><span class="lnt">11
+</span><span class="lnt">12
+</span><span class="lnt">13
+</span><span class="lnt">14
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-fortran" data-lang="fortran"><span class="line"><span class="cl"><span class="k">subroutine</span><span class="w"> </span><span class="n">factorial</span><span class="p">(</span><span class="n">n</span><span class="p">,</span><span class="w"> </span><span class="n">fac</span><span class="p">)</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">	</span><span class="k">implicit</span><span class="w"> </span><span class="k">none</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">	
+</span></span></span><span class="line"><span class="cl"><span class="w">	</span><span class="k">integer</span><span class="p">,</span><span class="w"> </span><span class="k">intent</span><span class="p">(</span><span class="n">in</span><span class="p">)</span><span class="w"> </span><span class="kd">::</span><span class="w"> </span><span class="n">n</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">	</span><span class="k">integer</span><span class="p">,</span><span class="w"> </span><span class="k">intent</span><span class="p">(</span><span class="n">out</span><span class="p">)</span><span class="w"> </span><span class="kd">::</span><span class="w"> </span><span class="n">fac</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">	
+</span></span></span><span class="line"><span class="cl"><span class="w">	</span><span class="k">integer</span><span class="w"> </span><span class="kd">::</span><span class="w"> </span><span class="n">i</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">	
+</span></span></span><span class="line"><span class="cl"><span class="w">	</span><span class="n">fac</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="mi">1</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">	
+</span></span></span><span class="line"><span class="cl"><span class="w">	</span><span class="k">do</span><span class="w"> </span><span class="n">i</span><span class="o">=</span><span class="mi">1</span><span class="p">,</span><span class="n">n</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">		</span><span class="n">fac</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">fac</span><span class="w"> </span><span class="o">*</span><span class="w"> </span><span class="n">i</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">	</span><span class="k">end</span><span class="w"> </span><span class="k">do</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w"></span><span class="k">end</span><span class="w"> </span><span class="k">subroutine</span><span class="w"> </span><span class="n">factorial</span><span class="w">
+</span></span></span></code></pre></td></tr></table>
+</div>
+</div><h3 id="mathematics">
+Mathematics
+<a href="#mathematics" class="heading-anchor">#</a>
+</h3>
+<p><a href="https://www.katex.org">KaTeX</a> provides support for rendering maths.
+For example, Cauchy&rsquo;s integral formula states that on an open subset
+<code>$U \subset \mathbb{C}$</code> the values of a holomorphic function <code>$f:U \rightarrow \mathbb{C}$</code> are determined by its
+values on the boundary of <code>$U$</code>. More precisely $$ f(z) =
+\frac{1}{2\pi i} \oint_{\gamma} \frac{f(\zeta)}{\zeta - z} \mathrm{d}
+\zeta, $$ where <code>$\gamma$</code> is a contour contained in <code>$U$</code>.</p>
+<h3 id="figures">
+Figures
+<a href="#figures" class="heading-anchor">#</a>
+</h3>
+<p>Tufte&rsquo;s work is distinguished by the tight integration of figures and
+text. There are a variety of ways to show figures. Figures can be
+inserted into the main column of text:</p>
+
+
+    <figure >
+  
+    <label for="carbonstocks" class="margin-toggle marginnote-ind">🖱</label>
+    <input type="checkbox" id="carbonstocks" class="margin-toggle"/>
+    <span class="marginnote">
+
+
+Terrestrial carbon stocks by latitude. From <a href="https://www.science.org/doi/10.1126/science.aav0550">Crowther <em>et al.</em> 2019</a>.
+
+
+
+</span>
+
+
+
+  
+  <img src="carbon_stocks.jpg" alt="Carbon stocks by latitude">
+  
+
+
+
+
+</figure>
+
+
+<p>If necessary I can insert a full width figure. This figure, from <a href="https://www.science.org/doi/10.1126/science.adk3705">Judd <em>et al.</em></a>
+
+
+    <figure class="fullwidth">
+  
+  
+  <img src="temperature.jpg" alt="Global temperatures over the last 485 million years.">
+  
+  <figcaption>
+
+
+
+
+
+
+
+  </figcaption>
+
+
+
+
+
+
+</figure>
+
+</p>
+<p>shows the evolution of global temperatures over the last 485 million
+years.</p>
+<p>As everyone loves marginalia, I can of course insert a figure in the
+margin.<br>
+
+
+    <label for="logistic" class="margin-toggle marginnote-ind">🖱</label>
+    <input type="checkbox" id="logistic" class="margin-toggle"/>
+    <span class="marginnote">
+    
+    <img src="logistic.png" alt="Logistic map bifurcation diagram">
+    
+
+
+The bifurcation diagram of the logistic map. Taken from <a href="https://en.wikipedia.org/wiki/Logistic_map#/media/File:Logistic_Bifurcation_map_High_Resolution.png">wikipedia</a>.
+
+
+
+</span>
+
+
+
+
+
+
+</p>
+<h2 id="the-future">
+The future
+<a href="#the-future" class="heading-anchor">#</a>
+</h2>
+<p>For now this website is hosted on <a href="https://github.com">github</a>, but
+I&rsquo;d like to register a nicer domain.</p>
+<p>I don&rsquo;t intend to blog very often, but I&rsquo;m happy I have a place on the
+internet of my own.</p>
+</section>
+  <section><footer class="page-footer">
+<hr />
+
+
+<ul class="page-footer-menu">
+  
+  
+  
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+  
+  
+</ul>
+
+
+
+
+
+</footer>
+</section>
+</article>
+
+
+
+
+
+
+
+  <script>(function(){var e,t,n,s=document.getElementsByTagName("code");for(n=0;n<s.length;){if(t=s[n],t.parentNode.tagName!=="PRE"&&t.childElementCount===0&&!t.classList.contains("nolatex")&&(e=t.textContent,/^\$[^$]/.test(e)&&/[^$]\$$/.test(e)&&(e=e.replace(/^\$/,"\\(").replace(/\$$/,"\\)"),t.textContent=e),/^\\\((.|\s)+\\\)$/.test(e)||/^\\\[(.|\s)+\\\]$/.test(e)||/^\$(.|\s)+\$$/.test(e)||/^\\begin\{([^}]+)\}(.|\s)+\\end\{[^}]+\}$/.test(e))){t.outerHTML=t.innerHTML;continue}n++}})()</script>
+
+
+<link rel="stylesheet" href="//cdn.jsdelivr.net/npm/katex@0.16.4/dist/katex.min.css" crossorigin="anonymous">
+<script defer src="//cdn.jsdelivr.net/npm/katex@0.16.4/dist/katex.min.js" crossorigin="anonymous"></script>
+<script defer src="//cdn.jsdelivr.net/npm/katex@0.16.4/dist/contrib/auto-render.min.js" crossorigin="anonymous"></script>
+
+<script>
+    document.addEventListener("DOMContentLoaded", function() {
+        renderMathInElement(document.body, {
+            
+            
+            
+            
+            
+            
+            trust: (context) => ['\\htmlId', '\\href'].includes(context.command),
+            macros: {
+              "\\eqref": "\\href{###1}{(\\text{#1})}",
+              "\\ref": "\\href{###1}{\\text{#1}}",
+              "\\label": "\\htmlId{#1}{}"
+            }
+        });
+    });
+</script>
+
+
+
+</body>
+
+</html>

@@ -6,14 +6,21 @@
     <description>Recent content in Home on Joseph Clarke</description>
     <generator>Hugo</generator>
     <language>en-GB</language>
-    <lastBuildDate>Tue, 11 Feb 2025 20:23:18 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 29 Aug 2025 15:21:21 +0100</lastBuildDate>
     <atom:link href="https://josephjclarke.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Carbon Cycle Instability</title>
+      <link>https://josephjclarke.github.io/notes/carbon-cycle-instability/</link>
+      <pubDate>Fri, 29 Aug 2025 15:21:21 +0100</pubDate>
+      <guid>https://josephjclarke.github.io/notes/carbon-cycle-instability/</guid>
+      <description>I&amp;rsquo;ve got a new preprint out in ESD. You can read it here if you like.&#xA;A Runaway Carbon Cycle # If you release some carbon dioxide into the atmosphere there are effects in the climate-carbon system that further increase the amount of carbon in the atmosphere. For example, a release of carbon dioxide warms the planet, which increases heterotrophic respiration which adds some more carbon to the atmosphere.&#xA;We&amp;rsquo;ve worked out under what circumstances you could get a &amp;lsquo;runaway&amp;rsquo; release of carbon dioxide (and thus a runaway increase in global temperatures) through this effect.</description>
+    </item>
     <item>
       <title>Hello World</title>
       <link>https://josephjclarke.github.io/notes/hello-world/</link>
       <pubDate>Tue, 11 Feb 2025 20:23:18 +0000</pubDate>
       <guid>https://josephjclarke.github.io/notes/hello-world/</guid>
-      <description>I&amp;rsquo;m worried that there aren&amp;rsquo;t enough websites.&#xA;🖱 A similar process is at work in how we access music and movies. In the not so distant past I would listen to music from a mountain of mp3 files on my hard drive, whereas now I stream it. In return for convenience, we don&amp;rsquo;t own media anymore: we rent it. Most people&amp;rsquo;s internet usage (including mine) is concentrated on a few websites, owned by private interests who are often bad stewards of the website they run.</description>
+      <description>Website Tour # Go to my about page to learn about me, and say hello using my contact details.&#xA;I&amp;rsquo;ve written a simple python script to generate a list of my publications and a CV from a bibtex file.&#xA;An attempt at blogging can be found under the notes page. Subscribe to my RSS feed!&#xA;Technology # The website is managed by the static site generator Hugo. I wanted to avoid the faff of running a dynamic website and the speed of Hugo appealed to me.</description>
     </item>
     <item>
       <title>About</title>

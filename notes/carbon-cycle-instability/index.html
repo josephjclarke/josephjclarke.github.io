@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en-GB"><head>
+<title>Carbon Cycle Instability - Joseph Clarke</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="description"
+    content="I&rsquo;ve got a new preprint out in ESD. You can read it here if you like.
+A Runaway Carbon Cycle # If you release some carbon dioxide into the atmosphere there are effects in the climate-carbon system that further increase the amount of carbon in the atmosphere. For example, a release of carbon dioxide warms the planet, which increases heterotrophic respiration which adds some more carbon to the atmosphere.
+We&rsquo;ve worked out under what circumstances you could get a &lsquo;runaway&rsquo; release of carbon dioxide (and thus a runaway increase in global temperatures) through this effect. ">
+<link rel="canonical" href="https://josephjclarke.github.io/notes/carbon-cycle-instability/" />
+
+
+<link rel="icon" href="https://josephjclarke.github.io/favicon.svg" />
+
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+
+
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link rel="preload" as="style"
+      href="https://fonts.googleapis.com/css?family=Noto+Serif+SC|Noto+Emoji&display=swap" />
+<link rel="stylesheet"
+      href="https://fonts.googleapis.com/css?family=Noto+Serif+SC|Noto+Emoji&display=swap"
+      media="print" onload="this.media='all'" />
+<noscript>
+<link rel="stylesheet"
+      href="https://fonts.googleapis.com/css?family=Noto+Serif+SC&display=swap" />
+</noscript>
+
+
+
+<link rel="stylesheet" href="https://josephjclarke.github.io/css/hugo-tufte.min.css">
+
+
+
+<link rel="stylesheet" href="https://josephjclarke.github.io/css/hugo-tufte-options.min.css">
+
+<link rel="stylesheet" href="https://josephjclarke.github.io/css/hugo-tufte-override.css">
+
+</head>
+<body>
+
+
+<article id="main">
+  <section>
+<h1 class="content-title">Carbon Cycle Instability</h1><p class=subtitle>A new preprint</p></section>
+
+  <section><nav class="menu">
+    <ul>
+    
+        <li><a href="https://josephjclarke.github.io/">Home</a></li>
+    
+        <li><a href="https://josephjclarke.github.io/about">About</a></li>
+    
+        <li><a href="https://josephjclarke.github.io/contact">Contact</a></li>
+    
+        <li><a href="https://josephjclarke.github.io/publications">Publications</a></li>
+    
+        <li><a href="https://josephjclarke.github.io/notes">Notes</a></li>
+    
+    </ul>
+</nav>
+
+    <hr />
+    </section>
+  
+
+  <section><p>I&rsquo;ve got a new preprint out in ESD. You can read it
+<a href="https://egusphere.copernicus.org/preprints/2025/egusphere-2025-3703/">here</a>
+if you like.</p>
+<h1 id="a-runaway-carbon-cycle">
+A Runaway Carbon Cycle
+<a href="#a-runaway-carbon-cycle" class="heading-anchor">#</a>
+</h1>
+<p>If you release some carbon dioxide into the atmosphere there are effects in the
+climate-carbon system that further increase the amount of carbon in the atmosphere. For
+example, a release of carbon dioxide warms the planet, which increases
+heterotrophic respiration which adds some more carbon to the atmosphere.</p>
+<p>We&rsquo;ve worked out under what circumstances you could get a &lsquo;runaway&rsquo;
+release of carbon dioxide (and thus a runaway increase in global
+temperatures) through this effect.</p>
+<h2 id="being-naive">
+Being Naive
+<a href="#being-naive" class="heading-anchor">#</a>
+</h2>
+<p>For this to occur, we must get enough warming from increasing the
+concentration of carbon dioxide and also the response of heterotrophic
+respiration must be strong enough.</p>
+<p>We can give a very naive (and wrong) estimate of when this will occur
+by the following argument. If we increase carbon dioxide by a small
+amount, <code>$\Delta \mathrm{CO}^{(0)}_2$</code> then we get a small increase in
+temperature which depends on the fractional change in carbon dioxide
+$$\Delta T = \frac{\mathrm{ECS}}{\log 2} \frac{\Delta
+\mathrm{CO}^{(0)}_2}{\mathrm{CO}_2}.$$</p>
+<p>This increase in temperature leads to a release of carbon from the
+soils through enhanced heterotrophic respiration $$\Delta
+\mathrm{CO}^{(1)}_2 = C_L \alpha \Delta T$$ where <code>$C_L$</code> is the land
+carbon store and <code>$\alpha$</code> is the sensitivity of respiration to
+warming. This means that overall we have</p>
+<p>$$\Delta \mathrm{CO}^{(1)}_2 = C_L \alpha \frac{\mathrm{ECS}}{\log 2} \frac{\Delta\mathrm{CO}^{(0)}_2}{\mathrm{CO}_2}.$$</p>
+<p>However <code>$\Delta \mathrm{CO}^{(1)}_2$</code> will also lead to warming, causing this process to repeat.
+The <code>$n$</code>th iteration will lead to an increase of
+$$\Delta \mathrm{CO}^{(n)}_2 = \left( \frac{\mathrm{ECS} C_L \alpha}{\mathrm{CO}_2 \log 2}\right)^n\Delta\mathrm{CO}_2^{(0)}.$$</p>
+<p>Remembering some basic facts about geometric series tells us that for
+the perturbation to remain finite we must have
+$$\alpha \mathrm{ECS} \frac{C_L}{\mathrm{CO}_2}  &lt; \log 2.$$</p>
+<p><label for="marginnote-1" class="margin-toggle marginnote-ind">🖱</label>
+<input type="checkbox" id="marginnote-1" class="margin-toggle"/>
+<span class="marginnote">
+We assume 1500PgC of carbon on the land, 280ppm of carbon dioxide in the atmosphere
+and that respiration doubles for every 10K of warming.
+</span>
+ When this perturbation
+is not finite, we get a runaway. Taking reasonable parameter estimates
+gives us that an ECS of 4K leads to a runaway state. Given that the
+reasonable estimates of ECS have it around 3K, this is a bit close for
+comfort. Luckily for us, we have ignored important facts about the
+carbon cycle, such as the fact that the land takes up carbon through
+the fertilisation of photosynthesis.</p>
+<h2 id="the-paper">
+The paper
+<a href="#the-paper" class="heading-anchor">#</a>
+</h2>
+<p>This argument is right in spirit if wrong in detail.
+In the paper we perform a more sophisticated version of the above calculation to get the
+critical ECS threshold and find it agrees with the output of a more complex model.
+The exact threshold depends on how much carbon is in the atmosphere to begin with and how
+strong you think the fertilisation effect is. You&rsquo;ll have to read the paper to find out more!</p>
+</section>
+  <section><footer class="page-footer">
+<hr />
+
+
+<ul class="page-footer-menu">
+  
+  
+  
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+  
+  
+</ul>
+
+
+
+
+
+</footer>
+</section>
+</article>
+
+
+
+
+
+
+
+  <script>(function(){var e,t,n,s=document.getElementsByTagName("code");for(n=0;n<s.length;){if(t=s[n],t.parentNode.tagName!=="PRE"&&t.childElementCount===0&&!t.classList.contains("nolatex")&&(e=t.textContent,/^\$[^$]/.test(e)&&/[^$]\$$/.test(e)&&(e=e.replace(/^\$/,"\\(").replace(/\$$/,"\\)"),t.textContent=e),/^\\\((.|\s)+\\\)$/.test(e)||/^\\\[(.|\s)+\\\]$/.test(e)||/^\$(.|\s)+\$$/.test(e)||/^\\begin\{([^}]+)\}(.|\s)+\\end\{[^}]+\}$/.test(e))){t.outerHTML=t.innerHTML;continue}n++}})()</script>
+
+
+<link rel="stylesheet" href="//cdn.jsdelivr.net/npm/katex@0.16.4/dist/katex.min.css" crossorigin="anonymous">
+<script defer src="//cdn.jsdelivr.net/npm/katex@0.16.4/dist/katex.min.js" crossorigin="anonymous"></script>
+<script defer src="//cdn.jsdelivr.net/npm/katex@0.16.4/dist/contrib/auto-render.min.js" crossorigin="anonymous"></script>
+
+<script>
+    document.addEventListener("DOMContentLoaded", function() {
+        renderMathInElement(document.body, {
+            
+            
+            
+            
+            
+            
+            trust: (context) => ['\\htmlId', '\\href'].includes(context.command),
+            macros: {
+              "\\eqref": "\\href{###1}{(\\text{#1})}",
+              "\\ref": "\\href{###1}{\\text{#1}}",
+              "\\label": "\\htmlId{#1}{}"
+            }
+        });
+    });
+</script>
+
+
+
+</body>
+
+</html>

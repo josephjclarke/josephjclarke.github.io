@@ -1,0 +1,107 @@
+baseURL = "https://josephjclarke.github.io/"
+theme = "hugo-apero"
+languageCode = "en"
+title = "Dr Joseph Clarke"
+author = "Joseph Clarke"
+
+metaDataFormat = "yaml"
+footnoteReturnLinkContents = "&#8617;" # ↩
+enableEmoji = true
+
+[markup]
+  defaultMarkdownHandler = "goldmark"
+  [markup.goldmark.renderer]
+    unsafe = true  # Enable user to embed HTML snippets in Markdown content.
+    hardwraps = false 
+  [markup.tableOfContents]
+    startLevel = 2
+    endLevel = 2
+    ordered = false
+  [markup.highlight]
+    style = "github"
+    
+[params]
+  orgName = "Joseph Clarke"
+  orgLocal = "Exeter"
+  description = "My online profile"
+  favicon = "/img/favicon_jc.ico"
+  logo = "/img/initials.png" #"/img/blogophonic-mark-dark.png"
+  navallcaps = true
+  socialInHeader = false
+  socialInFooter = true
+  sharing_image = "/img/home.jpg"
+  
+  # use a built-in color theme
+  # one of: earth / forest / grayscale / magma / paper / peach / plum /
+  #         poppy / primer / sky / violet / water 
+  theme = "forest"
+  
+  # use an embedded font-family
+  # serif options: Fraunces / EB Garamond / Bitter
+  # sans-serif options: Commissioner / Atkinson Hyperlegible / Metropolis
+  # if you import your own fonts, name them here too
+  customtextFontFamily = "Commissioner"
+  customheadingFontFamily = "EB Garamond"
+  # alternatively, leave empty and select basic font options: sans-serif or serif
+  # for more http://tachyons.io/docs/typography/font-family/
+  textFontFamily = "sans-serif"
+  headingFontFamily = "serif"
+
+  # Configuration of math rendering
+  [params.math]
+    renderer = "katex" # one of "mathjax" / "katex" 
+  [[params.social]]
+      icon      = "github" 
+      icon_pack = "fab"
+      url       = "https://github.com/josephjclarke"
+  [[params.social]]
+      icon      = "bluesky"
+      icon_pack = "fab"
+      url       = "https://bsky.app/profile/joejclarke.bsky.social"
+  [[params.social]]
+      icon      = "orcid" 
+      icon_pack = "fab"
+      url       = "https://orcid.org/0000-0002-6250-1543"
+
+
+
+[menu]
+  [[menu.header]]
+    name = "About"
+    title = "About"
+    url = "/about/"
+    weight = 1
+  [[menu.header]]
+    name = "Publications"
+    title = "Publications"
+    url = "/publications/"
+    weight = 2
+    
+  # Configure footer  
+  [[menu.footer]]
+    name = "Contact"
+    title = "Contact form"
+    url = "/contact/"
+    weight = 1
+
+[privacy]
+  [privacy.disqus]
+    disable = false
+  [privacy.googleAnalytics]
+    disable = false
+    anonymizeIP = true
+    respectDoNotTrack = true
+  [privacy.instagram]
+    disable = false
+    simple = true
+  [privacy.x]
+    disable = false
+    enableDNT = true
+    simple = false
+  [privacy.vimeo]
+    disable = false
+    enableDNT = true
+    simple = true
+  [privacy.youtube]
+    disable = false
+    privacyEnhanced = true

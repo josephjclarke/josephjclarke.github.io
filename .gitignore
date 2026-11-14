@@ -1,0 +1,6 @@
+public/
+resources/_gen/
+scripts/.venv
+cv/build
+
+.hugo_build.lock

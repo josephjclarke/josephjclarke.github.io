@@ -12,7 +12,7 @@ serve: $(PUBLICATION_LIST_MD) static/cv.pdf
 	hugo server
 
 clean:
-	rm -rf public $(PUBLICATION_LIST_MD) static/cv.pdf cv/build
+	rm -rf public cv/build
 
 $(PUBLICATION_LIST_MD): $(PUBLICATION_LIST_BIB) scripts/generate_publications.py
 	uv run --project scripts scripts/generate_publications.py $(PUBLICATION_LIST_BIB) $(PUBLICATION_LIST_MD)
